@@ -128,7 +128,7 @@ urlpatterns = [
 ]
 ```
 
-Hit `http://localhost:8000/api/todos` in your browser and you'll see a JSON array of Todo objects in the nice DRF console. There are buttons for creating (using PUT requests), updating (PUT requests) and deleting (DELETE requests).
+Hit `http://localhost:8000/api/todos` in your browser and you'll see a JSON array of Todo objects in the nice DRF console. There are buttons for creating (using POST requests), updating (PUT requests) and deleting (DELETE requests).
 
 
 ### Hook this sucker up to the frontend
